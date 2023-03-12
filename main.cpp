@@ -39,7 +39,7 @@ int main()
         break;
       // If user wishes to exit, end the program.
       case -1:
-        exit(0);
+        return 0;
       }
 
       // Apply the sales tax.
